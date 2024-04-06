@@ -6,9 +6,9 @@ app = Flask(__name__)
 def main():
     return render_template('main.html')
 
-@app.route('/Subject.html')
+@app.route('/subject')
 def subject():
-    return render_template('Subject.html')
+    return render_template('subject.html')
 
 @app.route('/AI_assist.html')
 def ai_assist():
