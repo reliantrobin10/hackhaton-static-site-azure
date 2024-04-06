@@ -25,6 +25,3 @@ def assignment():
 @app.route('/teaching.html')
 def teaching():
     return render_template('teaching.html')
-
-if __name__ == '__main__':
-    app.run(debug=True)
