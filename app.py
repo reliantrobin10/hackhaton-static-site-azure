@@ -6,7 +6,7 @@ app = Flask(__name__)
 def main():
     return render_template('main.html')
 
-@app.route('/subject')
+@app.route('/subject.html')
 def subject():
     return render_template('subject.html')
 
